@@ -1,0 +1,4 @@
+CREATE DATABASE int301ca;
+CREATE TABLE `users` (`id` int(20) NOT NULL, `user` varchar(40) NOT NULL, `email` varchar(80) NOT NULL, `password` varchar(50) NOT NULL);
+ALTER TABLE `users` ADD PRIMARY KEY (`id`);
+ALTER TABLE `users` MODIFY `id` int(20) NOT NULL AUTO_INCREMENT;

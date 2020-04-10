@@ -1,3 +1,4 @@
+<div style="background-image: url('img.jpg');">
 <?php
     include('config.php');
     session_start();
